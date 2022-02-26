@@ -36,6 +36,7 @@
             this.txtKetQua = new System.Windows.Forms.TextBox();
             this.btnCong = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnChia = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -106,11 +107,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnChia
+            // 
+            this.btnChia.Location = new System.Drawing.Point(387, 197);
+            this.btnChia.Name = "btnChia";
+            this.btnChia.Size = new System.Drawing.Size(75, 23);
+            this.btnChia.TabIndex = 4;
+            this.btnChia.Text = "Chia";
+            this.btnChia.UseVisualStyleBackColor = true;
+            this.btnChia.Click += new System.EventHandler(this.btnChia_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(528, 374);
+            this.Controls.Add(this.btnChia);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCong);
             this.Controls.Add(this.txtKetQua);
@@ -136,6 +148,7 @@
         private System.Windows.Forms.TextBox txtKetQua;
         private System.Windows.Forms.Button btnCong;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnChia;
     }
 }
 
